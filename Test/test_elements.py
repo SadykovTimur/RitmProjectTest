@@ -2,6 +2,7 @@ import allure
 from Page.elements_page import ElementsPage
 from conftest import driver
 
+
 @allure.feature('TestElements')
 class TestElements:
     @allure.title('test_elements')
