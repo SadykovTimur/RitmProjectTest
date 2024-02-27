@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class ElementsLocarots:
+class ElementsLocators:
     ELEMENTS = (By.XPATH, '(//div[@class="card mt-4 top-card"])[1]')
     CHECKBOX = (By.XPATH, '//span[contains(text(),"Check Box")]')
     BUTTON = (By.XPATH, '//button[@aria-label="Toggle"]')
